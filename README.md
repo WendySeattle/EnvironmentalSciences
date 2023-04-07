@@ -1,2 +1,2 @@
 # EnvironmentalSciences
-GDI, CDI, UNEP, UNHDP, Climate Change, Sea Levels, Carbon Radiation
+GDI, CDI, UNEP, UNHDP, Climate Change, Sea Levels, Carbon Radiation.
