@@ -30,3 +30,5 @@ Copy-Item $pwd\*.ps1 -Destination $Pbc -recurse
 Copy-Item $pwd\*.cmd -Destination $Pbc -recurse
 
 Set-Location -Path $Pbc
+
+cmd /c "call README.cmd"
